@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Bento grid</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style type="text/tailwindcss">
+
+       @font-face {
+          font-family: DMSans;
+          font-style: normal;
+          font-weight: 200 700;
+          font-display: swap;
+          src: url("/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+ @font-face {
+          font-family: DMSans;
+          font-style: italic;
+          font-weight: 200 700;
+          font-display: swap;
+          src: url("/assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+} 
+
+      @theme {
+          --color-footer-blue: #3e52a3;
+          --color-purple-light: #dacffc;
+          --color-purple: #7650dc;
+          --color-yellow-light: #f9eee1;
+          --color-yellow: #ffcb6b;
+          --color-white: #ffffff;
+          --color-black: #121212;
+          --font-DM-sans: "DMSans", sans-serif;
+          --font-DM-sans-italic: "DMSans italic", sans-serif;
+}
+
+     
+    </style>
+  </head>
+  <!-- items-center justify-center -->
+
+  <body class="container mx-auto my-40 bg-[#f5f5f5]">
+    
+    <div class="bento-container p-2 grid grid-row-8 grid-cols-1 lg:grid-cols-4 lg:grid-rows-6 sm:grid-cols-2 sm:grid-rows-4 font-DMSans gap-4 "> 
+      
+       <div class="bg-yellow-light rounded-lg row-span-[3] flex flex-col justify-center">
+         <p class="text-[35px] font-[620] w-[176px] mx-auto leading-[0.85em]">Create and schedule content <span class="text-purple text-DM-sans italic">quicker.</span></p>
+         <img src="./assets/images/illustration-create-post.webp" class="w-[200px] mx-auto pt-[20px]" alt="create post">
+       </div>
+      
+      <div class=" text-white font-[DMSans] bg-purple lg:row-span-[2] lg:col-span-[2] lg:flex lg:flex-col lg:justify-center lg:items-center">
+        <p class="lg:text-[50px] lg:font-[500] lg:w-[450px] text-center lg:leading-[0.8em] lg:pb-5">Social Media <span class="text-yellow">10x</span> <span class="text-DM-sans italic lg:text-[38px]">Faster</span> <span class="lg:text-[38px] lg:text-[Yellow]">with AI Over</span></p>
+        <img src="./assets/images/illustration-five-stars.webp" class="w-[150px]" alt="5 Star Rating">
+        <p class="text-[yellow-light] lg:mt-2">4,000 5-star reviews</p>
+
+      </div>
+
+      <div class="row-span-[4] bg-purple-light lg:py-[35px]">
+        <p class="lg:text-[34px] lg:font-[500] lg:w-[250px] lg:mx-auto lg:leading-[0.85em]">Schedule to social media.</p>
+          <img src="./assets/images/illustration-schedule-posts.webp" class="lg:w-[320px] lg:mx-auto lg:my-[30px]" alt="Schedule post">
+        <p class="lg:mx-auto lg:w-[250px] lg:text-[19px] lg:leading-[1em] lg:font-[500]">post timings to publish content at the perfect time for your audience.</p>
+        
+      </div>
+
+<div class="font-DMSans row-span-[2] bg-white p-4">
+        <img src="./assets/images/illustration-multiple-platforms.webp" alt="insta/X logo">
+        <p class="text-3xl">Manage multiple accounts and platforms.</p>
+      </div>
+     
+    <div class="text-3xl row-span-[2] bg-yellow  relative overflow-hidden">
+      <p class="p-[20px]">Maintain a consistent posting schedule.</p>
+      <img src="./assets/images/illustration-consistent-schedule.webp" class ="absolute top-[140px] overflow-hidden px-[20px]" alt="schedule">
+    </div>
+      
+
+      
+
+       <div class="text-3xl row-span-[3] p-4 bg-yellow flex flex-col content-center m-30px">
+        <p class="w-[50%]">Write your content using AI.</p>
+        <img src="./assets/images/illustration-ai-content.webp" class="w-[250px] mx-auto pt-9 " alt="ai content tip illustration">
+      </div>
+      
+       <div class="row-span-[2]  bg-[white]">
+          <h3 class="text-[80px]" >56%</h3>
+          <p>faster audience growth</p>
+          <img src="./assets/images/illustration-audience-growth.webp" class="w-[70%]" alt="audience icon">
+        </div>
+
+        <div class="col-span-[2] bg-purple row-span-[2]">
+          <img src="./assets/images/illustration-grow-followers.webp" class="w-[40%]" alt="Audience growth">
+          <p class="text-white">Grow followers with non-stop content.</p>
+        </div>
+      
+      
+     
+      
+    </div>
+
+    <div class="attribution text-[11px] text-center">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" class="text-footer-blue">Frontend Mentor</a>.
+      Coded by <a href="#" class="text-footer-blue">Olaniyi Olatunbosun</a>.
+    </div>
+  </body>
+</html>
