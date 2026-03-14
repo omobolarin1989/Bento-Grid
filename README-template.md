@@ -28,33 +28,24 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+(./Frontend-Mentor-Bento-grid-03-14-2026_12_41_PM.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/omobolarin1989/Bento-Grid)
+- Live Site URL: [https://bucolic-bublanina-3e5d33.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- Tailwind
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
+- [[Tailwind CSS](https://tailwindcss.com/docs)) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -65,46 +56,48 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+. I learnt using CSS grid and tailwind. This really help making my work faster and easier
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+ <div class="bento-container p-[15px] md:mt-[60px] lg:p-[25px] md:p-[20px] sm:p-[10px] w-[100%] md:grid md:grid-row-4 md:grid-cols-4 lg:grid grid-row-8 grid-cols-1 lg:grid-cols-4 lg:grid-rows-6 font-DMSans lg:gap-5 gap-[20px]"> 
+      
+       <div class=" lg:py-[20px] py-[30px] lg:px-[20px] px-[20px] mx-auto lg:mx-[0px] p-[30px] lg:p-[10px] md:p-[0] bg-yellow-light md:row-span-[2] rounded-lg lg:row-span-[3] lg:col-span-[1] md:align-none md:justify-none md:flex md:flex-col md:justify-center md:align-center lg:flex lg:flex-col lg:justify-center">
+         <p class="font-[500] lg:font-[500] text-[24px] text-[20px] w-[230px] md:w-[150px] lg:text-left md:text-center leading-[0.8em] lg:text-[35px] lg:font-[500] lg:w-[176px] lg:leading-[0.85em]">Create and schedule content <span class="text-purple text-DM-sans italic">quicker.</span></p>
+         <img src="./assets/images/illustration-create-post.webp" class="w-[160px] lg:w-[200px] md:w-[100px] lg:mx-[0px] md:mx-auto mt-[15px] md:pt-[5px] lg:pt-[20px]" alt="create post">
+       </div>
+      
+      <div class=" lg:m-[10px] m-auto p-[20px] lg:p-[0px] text-white font-[DMSans] bg-purple md:col-span-[2] md:row-span-[1] lg:row-span-[2] lg:col-span-[2] lg:flex lg:flex-col lg:justify-center lg:items-center rounded-lg">
+        <p class="text-[24px] lg:text-[50px] lg:font-[500] mx-auto lg:mx-[0] w-[160px] lg:w-[450px] lg:text-center text-center lg:leading-[0.8em] md:pb-1">Social Media <span class="text-yellow">10x</span> <span class="text-DM-sans italic lg:text-[38px]">Faster</span> <span class="lg:text-[38px] lg:text-[Yellow]">with AI</span></p>
+        <img src="./assets/images/illustration-five-stars.webp" class="w-[120px] lg:w-[150px] mx-auto py-[10px]" alt="5 Star Rating">
+        <p class="text-[yellow-light] text-center md:mt-1 lg:mt-2">Over 4,000 5-star reviews</p>
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+      </div>
+
+      <div class=" lg:row-span-[4] lg:col-span-[1] bg-purple-light lg:py-[35px] lg:px-[30px] p-[20px] rounded-lg">
+        <p class="lg:text-[32px] lg:font[500] font-[500] lg:text-[26px] text-[21px] lg:font-[500] lg:w-[250px] lg:mb-[5px] mb-[14px] lg:leading-[0.85em]">Schedule to social media.</p>
+          <img src="./assets/images/illustration-schedule-posts.webp" class=" md:w-[100px] lg:w-[900px] lg:my-[45px] md:my-[0px]" alt="Schedule post">
+        <p class="  lg:text-left text-center lg:w-[200px] lg:font-[500] font-[500] lg:text-[19px] leading-[1.1em] lg:leading-[1em] lg:font-[500] mt-[20px]">Optimise post timings to publish content at the perfect time for your audience.</p>
+        
+      </div>
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to focus more on using the CSS grid and tailwind because it makes work easier and g=faster. Getting more understanding of this will make work very easy
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-([Tailwind](https://tailwindcss.com/docs/installation/using-vite)) - This helps in making the responsive design so easy. using various tailwind classes
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 2](youtube.com) - Watching various video resource on youtube help me gain indepth understanding on how to go about it.
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Olaniyi Olatunbosun](https://bucolic-bublanina-3e5d33.netlify.app/)
+- Frontend Mentor - [@omobolarin1989](https://www.frontendmentor.io/profile/omobolarin1989)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I am writing to show gratiude to Future Firge learning initiative who brought this initiative to enable us learn more and know more. I am also thanking my Facilitators and Mentors. Ms. Blessing and Mr. Emmanuel. Thank you all for putting us on track.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
